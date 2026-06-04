@@ -1,0 +1,53 @@
+- First, go to the 'node.js' folder, and enter the folder that represents
+  your operating system.
+
+- You'll find the 'node' executable and the 'run' script.
+
+ Linux, Mac, and AIX users will also find the 'setup' script, which must be
+  executed once to allow execution permission for the 'node' executable and the
+  'run' script. Simply open the terminal in the directory where the 'setup'
+  script is, and run this command:
+  - Linux/Mac: sh setup.sh
+  - AIX:ksh setup.sh
+  After that, you'll no longer need the 'setup' script anymore; next time just
+  double click the 'run' script directly.
+
+- Double click the 'run' script to launch the game server.
+
+ AIX users can start the server anytime by entering './run.sh' in the terminal.
+
+- Because the app does not sync across devices, your only option is:
+  1. Single Device: Play entirely on one screen (like a laptop or TV).      
+	 Operatives look at the screen to guess. The Spymaster looks at the hidden
+	 key card on the web page, a piece of paper, their memory, or a completely
+	 separate screen (Operators should not look when the Spy is looking in the
+	 key card board), then right-clicks the main screen to reveal the cards.
+
+* The methods listed below have issues, such as sync lack (revealing cards,
+  adding players, and other changes won't appear to other devices; also when you
+  open the link http://host_ip_address:3000/#/play in other devices, the board
+  cards will change sadly):
+  1. Spies in one device, Operators in another device: Though limited, since
+     there is no sync for the changes, but it's still an option.
+  2. Everyone on their device: Same as above.
+  3. Play the way you want: There is no restriction to the way you and your
+     friends/siblings can play, so find what fits your desire.
+  * Unless you find a workaround, you may not be able to play that way.
+  I apologize for the inconvenience (though it's by the author, not me hehe).
+
+  * And in case you choose to play in the issue-prone methods, you can get the
+    host IP address this way:
+    the host opens their terminal/command promptand type:
+    - Windows: 'ipconfig' then look for the IPv4 Address.
+    - Linux/Mac: 'ifconfig' then look for the inet or inet6 Address.
+    The host can simply play by typing 'http://localhost:3000/#/play' in their
+    browser. While others should type 'http://host_ip_address:3000/#/play'
+    (change 'host_ip_address' to the host's IP. For example:
+    'http://192.168.0.67:3000/#/play')
+    The guests (other players) can play simply by opening their browser and
+    typing the invite link. Any device (including phone) should work.
+    (Of cource, the host and the guests must be both connected to the same Wi-Fi
+     network).
+
+* For more fun (or in case of issues), you can use a paper, or quick notes apps
+  to keep the game records.
