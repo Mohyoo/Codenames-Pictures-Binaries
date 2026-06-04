@@ -10,6 +10,8 @@ Though I could only test the Windows binaries, so please tell me if they don't w
 ## Codenames Pictures: Quick Guide
 Two teams (**Red** and **Blue**) race to identify their secret agent cards on a grid based on clues given by their **Spymasters**.
 
+![Screenshot](screenshot.png)
+
 ---
 
 ## Can it be played locally (Offline - LAN - One Screen)?
